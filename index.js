@@ -3,7 +3,7 @@ const mysql = require('mysql2');
 
 const mysqlConfig = {
   host: "mysql_server",
-  user: "thulsi",
+  user: "Thulsi",
   password: "secret",
   database: "test_db"
 }
