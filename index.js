@@ -14,7 +14,7 @@ const app = express()
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
-  res.send('hello world')
+  res.send('Tournament name,Start and end date,Participant list,Status of tournament')
 })
 
 app.get('/connect', function (req, res) {
